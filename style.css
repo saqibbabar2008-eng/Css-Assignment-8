@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+    background-image: url(./home.png);
+    background-size:cover;   
+    background-position: center;    
+    
+}
+
+.maincard{
+ 
+    background-image: url(./card.jpg);
+    background-repeat: no-repeat;   
+     background-size: 320px;
+    border: solid gray 1px;
+    border-radius: 20px;
+    height: 70%;
+    width: 20%;
+    padding: 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: end;
+}
+
+.blogcard{
+    color: rgb(241, 71, 219);
+    font-size: xxlarge;
+}
+
+.main{
+    margin: 7%;
+
+    color: aliceblue;
+}
+
+span{
+    color: goldenrod;
+    font-size: x-large;
+}
+
+.but{
+    font-size: large;
+    background-color: black;
+    border: solid white 2px;
+    border-radius: 200px;
+}
+
+.but:hover{
+    background-color: #dbdbdb;
+    color: black;
+    border: solid #478079 2px;
+    border-radius: 20px;
+
+}
