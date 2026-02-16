@@ -54,9 +54,9 @@ span{
 }
 
 .but:hover{
-    background-color: #dbdbdb;
+    background-color: white;
     color: black;
-    border: solid #478079 2px;
+    border: solid #2f3837 2px;
     border-radius: 20px;
 
 }
